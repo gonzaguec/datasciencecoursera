@@ -10,18 +10,65 @@ output:
 You should include a README.md in the repo describing how the script works and the code book describing the variables.
 
 ## Project Description: Tidy samsung data - variables codebook
+This is the codebook for the file tidy_data.txt, the first row is the name of each variable. From row number 2, values
 
-### Guide to create the tidy data file
-In order to fulfill the requirements of the project. As you can see in the code: 
+### Variables
+In order to fulfill the requirements of the project. As you can see in the file, this are variables: 
 
-## First -> download the information
-Preliminary part of the script was to download the dataset proposed by professor Peng
+Identifiers -> from 1 to 30
 
-## Second -> read the information 
-In order to work with different variables, first the script read the available information and to generate the different working files that will be used latter
+Activities -> WALKING; WALKING_UPSTAIRS; WALKING_DOWNSTAIRS; SITTING; STANDING; and LAYING
 
-## Third -> Create one data set 
-The third step was to create one dataset in order to produce the tidy information required in the assignment. 
+Variables are separeted between timedomain and frequencydomain, as in original dataset. 
 
-## Forth -> means
-Finally, the script extracts the means as required. 
+## Time domain: 
+timeDomainBodyAccelerometerMean (for X, Y and Z) 
+timeDomainBodyAccelerometerStandardDeviation (for X, Y and Z) 
+timeDomainBodyAccelerometerMagnitudeMean 
+timeDomainBodyAccelerometerMagnitudeStandardDeviation
+
+timeDomainGravityAccelerometerMean (for X, Y and Z)
+timeDomainGravityAccelerometerStandardDeviation (for X, Y and Z) 
+timeDomainGravityAccelerometerMagnitudeMean
+timeDomainGravityAccelerometerMagnitudeStandardDeviation
+
+timeDomainBodyAccelerometerJerkMean (for X, Y and Z) 
+timeDomainBodyAccelerometerJerkStandardDeviation (for X, Y and Z) 
+timeDomainBodyAccelerometerJerkMagnitudeMean 
+timeDomainBodyAccelerometerJerkMagnitudeStandardDeviation
+
+timeDomainBodyGyroscopeMean (for X, Y and Z) 
+timeDomainBodyGyroscopeStandardDeviation (for X, Y and Z) 
+timeDomainBodyGyroscopeMagnitudeMean 
+timeDomainBodyGyroscopeMagnitudeStandardDeviation
+
+timeDomainBodyGyroscopeJerkMean (for X, Y and Z) 
+timeDomainBodyGyroscopeJerkStandardDeviation (for X, Y and Z) 
+timeDomainBodyGyroscopeJerkMagnitudeMean 
+timeDomainBodyGyroscopeJerkMagnitudeStandardDeviation
+
+## Frequency domain 
+frequencyDomainBodyAccelerometerMean (for X, Y and Z)
+frequencyDomainBodyAccelerometerStandardDeviation (for X, Y and Z)
+frequencyDomainBodyAccelerometerMeanFrequency (for X, Y and Z)
+frequencyDomainBodyAccelerometerMagnitudeMean
+frequencyDomainBodyAccelerometerMagnitudeMeanFrequency 
+frequencyDomainBodyAccelerometerMagnitudeStandardDeviation 
+
+frequencyDomainBodyAccelerometerJerkMean (for X, Y and Z)
+frequencyDomainBodyAccelerometerJerkStandardDeviation (for X, Y and Z)
+frequencyDomainBodyAccelerometerJerkMeanFrequency (for X, Y and Z)
+frequencyDomainBodyAccelerometerJerkMagnitudeMean
+frequencyDomainBodyAccelerometerJerkMagnitudeMeanFrequency
+frequencyDomainBodyAccelerometerJerkMagnitudeStandardDeviation
+
+
+frequencyDomainBodyGyroscopeMean (for X, Y and Z)
+frequencyDomainBodyGyroscopeStandardDeviation (for X, Y and Z)
+frequencyDomainBodyGyroscopeMeanFrequency (for X, Y and Z)
+frequencyDomainBodyGyroscopeMagnitudeMean 
+frequencyDomainBodyGyroscopeMagnitudeStandardDeviation 
+frequencyDomainBodyGyroscopeMagnitudeMeanFrequency 
+frequencyDomainBodyGyroscopeJerkMagnitudeMean 
+frequencyDomainBodyGyroscopeJerkMagnitudeStandardDeviation 
+frequencyDomainBodyGyroscopeJerkMagnitudeMeanFrequency
