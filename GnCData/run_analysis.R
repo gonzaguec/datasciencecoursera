@@ -39,14 +39,19 @@
 ##
 ##
 ## First step: get files
+library(dplyr)
 zipUrl <- "https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip"
 zipFile <- "UCI HAR Dataset.zip"
 
-download.file(zipUrl, zipFile, mode = "wb")
-
-unzip(zipFile)
+if(!file.exists(zipFile)) { ##conditional function added because after first time running the script there was no need to download again files
+   download.file(zipUrl, zipFile, mode = "wb")
+}
 
 datafolder <- "UCI HAR Dataset"
+
+if(!file.exists(datafolder)) {
+        unzip(zipFile)
+}
 
 # read training data
 trainingSubjects <- read.table(file.path(datafolder, "train", "subject_train.txt"))
@@ -58,10 +63,9 @@ testSubjects <- read.table(file.path(datafolder, "test", "subject_test.txt"))
 testValues <- read.table(file.path(datafolder, "test", "X_test.txt"))
 testActivity <- read.table(file.path(datafolder, "test", "y_test.txt"))
 
-# read features, don't convert text labels to factors
+# read features labels as text
 features <- read.table(file.path(datafolder, "features.txt"), as.is = TRUE)
-## note: feature names (in features[, 2]) are not unique
-##       e.g. fBodyAcc-bandsEnergy()-1,8
+
 
 # read activity labels
 activities <- read.table(file.path(datafolder, "activity_labels.txt"))
