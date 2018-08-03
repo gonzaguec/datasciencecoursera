@@ -7,7 +7,9 @@ output:
     keep_md: yes
 ---
 
-## Project Description: Tidy samsung data
+You should include a README.md in the repo describing how the script works and the code book describing the variables.
+
+## Project Description: Tidy samsung data - variables codebook
 
 ### Guide to create the tidy data file
 In order to fulfill the requirements of the project. As you can see in the code: 
