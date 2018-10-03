@@ -3,21 +3,21 @@
 Submit by October 7, 11:59 PM PDT
 
 
-##Important Information
+## Important Information
 
 It is especially important to submit this assignment before the deadline, October 7, 11:59 PM PDT, because it must be graded by others. If you submit late, there may not be enough classmates around to review your work. This makes it difficult - and in some cases, impossible - to produce a grade. Submit on time to avoid these risks.
 
-##Introduction
+## Introduction
 
 Storms and other severe weather events can cause both public health and economic problems for communities and municipalities. Many severe events can result in fatalities, injuries, and property damage, and preventing such outcomes to the extent possible is a key concern.
 
 This project involves exploring the U.S. National Oceanic and Atmospheric Administration's (NOAA) storm database. This database tracks characteristics of major storms and weather events in the United States, including when and where they occur, as well as estimates of any fatalities, injuries, and property damage.
 
-##Data
+## Data
 
 The data for this assignment come in the form of a comma-separated-value file compressed via the bzip2 algorithm to reduce its size. You can download the file from the course web site:
 
-###Storm Data [47Mb]
+### Storm Data [47Mb]
 
 There is also some documentation of the database available. Here you will find how some of the variables are constructed/defined.
 
@@ -27,7 +27,7 @@ There is also some documentation of the database available. Here you will find h
 The events in the database start in the year 1950 and end in November 2011. In the earlier years of the database there are generally fewer events recorded, most likely due to a lack of good records. More recent years should be considered more complete.
 
 
-##Review criterialess 
+## Review criterialess 
 
 1.  Has either a (1) valid RPubs URL pointing to a data analysis document for this assignment been submitted; or (2) a complete PDF file presenting the data analysis been uploaded?
 2. Is the document written in English?
@@ -45,18 +45,18 @@ The events in the database start in the year 1950 and end in November 2011. In t
 14. Do the figure(s) have descriptive captions (i.e. there is a description near the figure of what is happening in the figure)?
 15. As far as you can determine, does it appear that the work submitted for this project is the work of the student who submitted it?
 
-##Assignment
+## Assignment
 
 The basic goal of this assignment is to explore the NOAA Storm Database and answer some basic questions about severe weather events. You must use the database to answer the questions below and show the code for your entire analysis. Your analysis can consist of tables, figures, or other summaries. You may use any R package you want to support your analysis.
 
-##Questions
+## Questions
 Your data analysis must address the following questions:
 
 1. Across the United States, which types of events (as indicated in the \color{red}{\verb|EVTYPE|}EVTYPE variable) are most harmful with respect to population health?
 2. Across the United States, which types of events have the greatest economic consequences?
 Consider writing your report as if it were to be read by a government or municipal manager who might be responsible for preparing for severe weather events and will need to prioritize resources for different types of events. However, there is no need to make any specific recommendations in your report.
 
-##Requirements
+## Requirements
 For this assignment you will need some specific tools
 
 * RStudio: You will need RStudio to publish your completed analysis document to RPubs. You can also use RStudio to edit/write your analysis.
