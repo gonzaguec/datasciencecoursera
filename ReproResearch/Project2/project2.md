@@ -1,3 +1,8 @@
+---
+output:
+  html_document: default
+  pdf_document: default
+---
 # Peer-graded Assignment: Course Project 2
 
 Submit by October 7, 11:59 PM PDT
